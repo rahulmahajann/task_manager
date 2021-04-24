@@ -86,7 +86,7 @@ mongoclient.connect(connectionUrl , {useUnifiedTopology: true} , (error,client) 
 
     })
 
-            find all the related data
+            // find all the related data
     db.collection('users').find({
         pob: 'delhi'
     }).toArray((error,user) => {
